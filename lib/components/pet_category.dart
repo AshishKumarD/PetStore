@@ -64,7 +64,7 @@ class _PetCategoryState extends State<PetCategory> {
               }
               return Row(
                 children: filteredPets
-                    .map((product) => Product(
+                    .map((product) => PetCard(
                           product: product,
                         ))
                     .toList(),

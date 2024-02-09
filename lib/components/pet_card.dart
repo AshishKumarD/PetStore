@@ -4,19 +4,19 @@ import 'package:petstore/model/pet_model.dart';
 import 'package:petstore/pages/details_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Product extends StatefulWidget {
+class PetCard extends StatefulWidget {
   final PetModel product;
 
-  const Product({
+  const PetCard({
     super.key,
     required this.product,
   });
 
   @override
-  State<Product> createState() => _ProductState();
+  State<PetCard> createState() => _PetCardState();
 }
 
-class _ProductState extends State<Product> {
+class _PetCardState extends State<PetCard> {
   @override
   Widget build(BuildContext context) {
     bool isAvailable = widget.product.isAvailable;
