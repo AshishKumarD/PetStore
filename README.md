@@ -2,7 +2,7 @@
 
 <img  src="SS.jpg" alt="ScreenShot">
 
-## Download for Android [APK](https://drive.google.com/file/d/1T5OE-3JLM5__YOM2rVAd7pVTqIxjMINP/view?usp=drive_link)
+## Download for Android [APK](https://github.com/AshishKumarD/PetStore/releases/download/v0.0.1/PetStore.apk)
 
 # Intoduction
 
